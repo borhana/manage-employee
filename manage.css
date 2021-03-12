@@ -1,5 +1,6 @@
 .tabletop{
     background-color: #023047;
+    
 }
 
 .tabletop h1 {
@@ -19,8 +20,27 @@
     margin: 0 15px 0 3px;
 }
 
-@media (max-width: 700px){
-     .tabletop h1 {
-         display: block;
-     }
-}
+@media  (min-width: 701px) {
+    .hamburger {
+      display: none;
+    }
+    .nav-button {
+      display: block;
+    }
+  }
+  
+  
+  @media (max-width: 700px) {
+    .hamburger {
+      display: block;
+      float: right;
+      margin: 15px 16px 0 0 ;
+    }
+    .nav-button {
+      display: none;
+    }
+    .tabletop h1{
+        font-size: 30px;
+    }
+  }
+  
