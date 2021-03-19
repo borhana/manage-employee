@@ -1,5 +1,5 @@
 .tabletop{
-    background-color: #023047;
+    background-color: #013149;
     
 }
 
@@ -27,6 +27,9 @@
     .nav-button {
       display: block;
     }
+    #menuLinks a {
+      display: none;
+    }
   }
   
   
@@ -42,8 +45,31 @@
     .tabletop h1{
         font-size: 30px;
     }
+
+    #menuLinks {
+      background-color: #317597;
+    }
+
+    
+    #menuLinks a {
+      color: white;
+      padding: 10px 12px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    #menuLinks a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
   }
 
 button.navbar-toggler.btn.btn-light.hamburger {
     background-color: white;
+}
+
+.tabletop #menuLinks {
+  display: none;
 }
