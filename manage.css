@@ -27,7 +27,7 @@
     .nav-button {
       display: block;
     }
-    #menuLinks a {
+    #menuLinks span {
       display: none;
     }
   }
@@ -51,7 +51,7 @@
     }
 
     
-    #menuLinks a {
+    #menuLinks span {
       color: white;
       padding: 10px 12px;
       text-decoration: none;
@@ -59,7 +59,7 @@
       display: block;
     }
     
-    #menuLinks a:hover {
+    #menuLinks span:hover {
       background-color: #ddd;
       color: black;
     }
